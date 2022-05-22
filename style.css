@@ -163,7 +163,7 @@ header .nav-link.active {
 .wrapper-services {
   padding-top: 150px;
 }
-.wrapper-services::before {
+/* .wrapper-services::before {
   content: "";
   position: absolute;
   width: 467px;
@@ -183,7 +183,7 @@ header .nav-link.active {
   -ms-border-radius: 233.5px !important;
   -o-border-radius: 233.5px !important;
   z-index: -2;
-}
+} */
 
 .title-icons__fontsize {
   font-style: normal;
@@ -213,7 +213,7 @@ header .nav-link.active {
   margin-top: 100px;
   gap: 120px 0;
 }
-.background-services {
+/* .background-services {
   position: absolute;
   width: 1060px;
   height: 2576.87px;
@@ -228,7 +228,7 @@ header .nav-link.active {
   filter: blur(300px);
   border-radius: 233.5px;
   transform: rotate(65.71deg);
-}
+} */
 .wrapper-portfolio {
   padding-top: 199px;
   padding-bottom: 168px;
