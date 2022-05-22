@@ -383,6 +383,7 @@ footer {
   .margin-container {
     margin-right: 108px;
     margin-left: 108px;
+    overflow: hidden;
   }
   header a.nav-link {
     text-align: right !important;
