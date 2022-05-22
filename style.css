@@ -163,27 +163,6 @@ header .nav-link.active {
 .wrapper-services {
   padding-top: 150px;
 }
-/* .wrapper-services::before {
-  content: "";
-  position: absolute;
-  width: 467px;
-  height: 508.5px;
-  left: -134px !important;
-  top: 1649.59px;
-  background: linear-gradient(
-    180deg,
-    rgba(18, 18, 238, 0.77) 0%,
-    rgba(84, 84, 212, 0.1134) 100%
-  ) !important;
-  filter: blur(300px);
-  border-radius: 233.5px !important;
-  transform: rotate(-54.37deg);
-  -webkit-border-radius: 233.5px !important;
-  -moz-border-radius: 233.5px !important;
-  -ms-border-radius: 233.5px !important;
-  -o-border-radius: 233.5px !important;
-  z-index: -2;
-} */
 
 .title-icons__fontsize {
   font-style: normal;
@@ -213,22 +192,7 @@ header .nav-link.active {
   margin-top: 100px;
   gap: 120px 0;
 }
-/* .background-services {
-  position: absolute;
-  width: 1060px;
-  height: 2576.87px;
-  left: 361.79px;
-  top: 1059px;
-  z-index: -2;
-  background: linear-gradient(
-    180deg,
-    rgba(251, 168, 28, 0.048) 0%,
-    rgba(224, 86, 136, 0.018) 100%
-  );
-  filter: blur(300px);
-  border-radius: 233.5px;
-  transform: rotate(65.71deg);
-} */
+
 .wrapper-portfolio {
   padding-top: 199px;
   padding-bottom: 168px;
@@ -327,6 +291,82 @@ footer {
 }
 
 @media (min-width: 992px) {
+  /* background */
+  .wrapper-services::before {
+    content: "";
+    position: absolute;
+    width: 467px;
+    height: 508.5px;
+    left: -134px !important;
+    top: 1649.59px;
+    background: linear-gradient(
+      180deg,
+      rgba(18, 18, 238, 0.77) 0%,
+      rgba(84, 84, 212, 0.1134) 100%
+    ) !important;
+    filter: blur(300px);
+    border-radius: 233.5px !important;
+    transform: rotate(-54.37deg);
+    -webkit-border-radius: 233.5px !important;
+    -moz-border-radius: 233.5px !important;
+    -ms-border-radius: 233.5px !important;
+    -o-border-radius: 233.5px !important;
+    z-index: -2;
+  }
+  .background-gradient {
+    position: absolute !important;
+    width: 327px !important;
+    height: 1233.79px !important;
+    /* left: -401.52px !important; */
+    top: -220px !important;
+    left: 50px;
+    background: linear-gradient(
+      180deg,
+      rgba(18, 18, 238, 0.37) 0%,
+
+      rgba(84, 84, 212, 0.1134) 100%
+    ) !important;
+    filter: blur(300px);
+    border-radius: 233.5px !important;
+    transform: rotate(-54.37deg) !important;
+    -webkit-transform: rotate(-54.37deg) !important;
+    -moz-transform: rotate(-54.37deg) !important;
+    -ms-transform: rotate(-54.37deg) !important;
+    -o-transform: rotate(-54.37deg) !important;
+    -webkit-filter: blur(300px);
+    -webkit-border-radius: 233.5px !important;
+    -moz-border-radius: 233.5px !important;
+    -ms-border-radius: 233.5px !important;
+    -o-border-radius: 233.5px !important;
+    /* z-index: -20; */
+  }
+  .background-gradient2 {
+    position: absolute !important;
+    width: 467px !important;
+    height: 1233.79px !important;
+    /*left: -401.52px !important;
+    */
+    overflow-x: hidden;
+    top: 0px !important;
+    right: 0px;
+    background: linear-gradient(
+      180deg,
+      rgba(251, 168, 28, 0.3066) 0%,
+      rgba(224, 86, 136, 0.0615) 100%
+    ) !important;
+    filter: blur(300px);
+    border-radius: 233.5px !important;
+    transform: rotate(65.71deg);
+    -webkit-transform: rotate(65.71deg);
+    -moz-transform: rotate(65.71deg);
+    -ms-transform: rotate(65.71deg);
+    -o-transform: rotate(65.71deg);
+    -webkit-filter: blur(300px);
+    -webkit-border-radius: 233.5px !important;
+    -moz-border-radius: 233.5px !important;
+    -ms-border-radius: 233.5px !important;
+    -o-border-radius: 233.5px !important;
+  }
   .margin-container {
     margin-right: 108px;
     margin-left: 108px;
@@ -479,7 +519,7 @@ footer {
     right: 100px;
     z-index: -20px;
   }
-  /* .portfolio__bacgkround-gradients {
+  .portfolio__bacgkround-gradients {
     position: absolute;
     width: 599.58px;
     height: 652.85px;
@@ -494,7 +534,23 @@ footer {
     filter: blur(300px);
     border-radius: 233.5px;
     transform: matrix(-0.58, -0.81, -0.81, 0.58, 0, 0);
-  } */
+  }
+  .background-services {
+    position: absolute;
+    width: 1060px;
+    height: 2576.87px;
+    left: 361.79px;
+    top: 1059px;
+    z-index: -2;
+    background: linear-gradient(
+      180deg,
+      rgba(251, 168, 28, 0.048) 0%,
+      rgba(224, 86, 136, 0.018) 100%
+    );
+    filter: blur(300px);
+    border-radius: 233.5px;
+    transform: rotate(65.71deg);
+  }
   .vector-port::before {
     content: url("./img/Vector.png");
     position: absolute;
