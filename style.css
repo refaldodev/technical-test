@@ -197,6 +197,10 @@ header .nav-link.active {
   padding-top: 199px;
   padding-bottom: 168px;
 }
+.img-portolio {
+  width: 100%;
+  height: auto;
+}
 .title-portfolio {
   font-style: normal;
   font-weight: 800;
@@ -392,6 +396,10 @@ footer {
   .collumn-2 {
     width: 56%;
   }
+  .img-portolio {
+    width: 336px;
+    height: auto;
+  }
   .mt-md-custom {
     margin-top: 60px !important;
   }
@@ -561,6 +569,7 @@ footer {
   .btn-contactus {
     margin-left: auto !important;
     display: block;
+    margin-right: 0 !important;
   }
   .btn-contactus:hover {
     border: 1px solid white;
