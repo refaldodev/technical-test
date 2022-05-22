@@ -99,60 +99,7 @@ header .nav-link.active {
   right: 150px;
   z-index: -1;
 }
-.background-gradient {
-  position: absolute !important;
-  width: 327px !important;
-  height: 1233.79px !important;
-  /* left: -401.52px !important; */
-  top: -220px !important;
-  left: 50px;
-  background: linear-gradient(
-    180deg,
-    rgba(18, 18, 238, 0.37) 0%,
 
-    rgba(84, 84, 212, 0.1134) 100%
-  ) !important;
-  filter: blur(300px);
-  border-radius: 233.5px !important;
-  transform: rotate(-54.37deg) !important;
-  -webkit-transform: rotate(-54.37deg) !important;
-  -moz-transform: rotate(-54.37deg) !important;
-  -ms-transform: rotate(-54.37deg) !important;
-  -o-transform: rotate(-54.37deg) !important;
-  -webkit-filter: blur(300px);
-  -webkit-border-radius: 233.5px !important;
-  -moz-border-radius: 233.5px !important;
-  -ms-border-radius: 233.5px !important;
-  -o-border-radius: 233.5px !important;
-  /* z-index: -20; */
-}
-.background-gradient2 {
-  position: absolute !important;
-  width: 467px !important;
-  height: 1233.79px !important;
-  /*left: -401.52px !important;
-  */
-  overflow-x: hidden;
-  top: 0px !important;
-  right: 0px;
-  background: linear-gradient(
-    180deg,
-    rgba(251, 168, 28, 0.3066) 0%,
-    rgba(224, 86, 136, 0.0615) 100%
-  ) !important;
-  filter: blur(300px);
-  border-radius: 233.5px !important;
-  transform: rotate(65.71deg);
-  -webkit-transform: rotate(65.71deg);
-  -moz-transform: rotate(65.71deg);
-  -ms-transform: rotate(65.71deg);
-  -o-transform: rotate(65.71deg);
-  -webkit-filter: blur(300px);
-  -webkit-border-radius: 233.5px !important;
-  -moz-border-radius: 233.5px !important;
-  -ms-border-radius: 233.5px !important;
-  -o-border-radius: 233.5px !important;
-}
 .wrapper-videoProfile {
   padding-top: 100px;
 }
