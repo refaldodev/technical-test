@@ -479,7 +479,7 @@ footer {
     right: 100px;
     z-index: -20px;
   }
-  .portfolio__bacgkround-gradients {
+  /* .portfolio__bacgkround-gradients {
     position: absolute;
     width: 599.58px;
     height: 652.85px;
@@ -494,7 +494,7 @@ footer {
     filter: blur(300px);
     border-radius: 233.5px;
     transform: matrix(-0.58, -0.81, -0.81, 0.58, 0, 0);
-  }
+  } */
   .vector-port::before {
     content: url("./img/Vector.png");
     position: absolute;
